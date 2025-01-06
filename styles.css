@@ -28,16 +28,15 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    grid-area:auto;
     justify-content: center;
     padding: 20px;
 }
 
 .card {
-    width: 211.8px;
-    height: 166.2px;
+    
     background-color: #565c6f;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -49,8 +48,7 @@ h1 {
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+
     visibility: hidden; /* Hide images by default */
     display: block;
 }
